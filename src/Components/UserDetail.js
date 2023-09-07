@@ -234,7 +234,8 @@ const UserDetail = ({
               onPress={() =>
              
                 dialCall(
-               `+${data?.vendor?.dial_code}${data?.vendor?.phone_no}`
+                  `+${data?.vendor?.phone_no}`
+              //  `+${data?.vendor?.dial_code}${data?.vendor?.phone_no}`
                   // (type = "phone")
                 )
               }
