@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		627E06F729D0064BD535A81F /* libPods-available_pods-Patazone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBD678387D4E3BEA0D35A3F /* libPods-available_pods-Patazone.a */; };
 		846CB42C2A657ED8008445DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		846CB42D2A657ED8008445DB /* Royo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4679626A7F27500D378D5 /* Royo.swift */; };
 		846CB42E2A657ED8008445DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -37,6 +36,7 @@
 		846CB4562A657F51008445DB /* Patazone(Production).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4552A657F51008445DB /* Patazone(Production).xcconfig */; };
 		846CB4582A657F66008445DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4572A657F65008445DB /* Images.xcassets */; };
 		846CB45A2A658273008445DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4592A658271008445DB /* GoogleService-Info.plist */; };
+		F9026216AE605C6955D3BED1 /* libPods-available_pods-Patazone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E68753137E8C423C712B2C2 /* libPods-available_pods-Patazone.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,6 @@
 		00DC50E227B7612F004AE735 /* MylaGlobal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MylaGlobal.entitlements; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RunrunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunrunTests.m; sourceTree = "<group>"; };
-		043EC3597723B1216D884613 /* Pods-available_pods-Patazone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.release.xcconfig"; sourceTree = "<group>"; };
 		1008CD522817D921007C5363 /* MarjMarketplace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarjMarketplace.entitlements; sourceTree = "<group>"; };
 		1013AD6B28112EE300E0582E /* Muvpod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muvpod.entitlements; sourceTree = "<group>"; };
 		101ECCB328337A14002A80FC /* DingDongEat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DingDongEat.entitlements; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		10E5BE93283CFEB4006F424C /* KeystoneDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeystoneDelivery.entitlements; sourceTree = "<group>"; };
 		10F34DC72837A48F00445924 /* ClickService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClickService.entitlements; sourceTree = "<group>"; };
 		10F34DC82837A49F00445924 /* AmazingTaxi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmazingTaxi.entitlements; sourceTree = "<group>"; };
-		12ACA41735E4177149C39973 /* Pods-available_pods-Patazone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Runrun/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Runrun/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Runrun/main.m; sourceTree = "<group>"; };
@@ -144,6 +142,7 @@
 		18C7E1B02994DC87003E10F6 /* ShipSmart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShipSmart.entitlements; sourceTree = "<group>"; };
 		18CD3068299BA96600715723 /* MagicalBookings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicalBookings.entitlements; sourceTree = "<group>"; };
 		18F0206F297E95860098482F /* Laith.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laith.entitlements; sourceTree = "<group>"; };
+		1E68753137E8C423C712B2C2 /* libPods-available_pods-Patazone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Patazone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76804BEC269C14AB007926EE /* Runrun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Runrun.entitlements; path = Runrun/Runrun.entitlements; sourceTree = "<group>"; };
 		76804BF6269C157F007926EE /* Tranzit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tranzit.entitlements; sourceTree = "<group>"; };
 		76804BF7269C15CB007926EE /* Hmoobhub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hmoobhub.entitlements; sourceTree = "<group>"; };
@@ -466,7 +465,8 @@
 		98C03ED228648AAB005B62E0 /* AbbeRides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AbbeRides.entitlements; sourceTree = "<group>"; };
 		98C91B1C286985A600D633D8 /* Sadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sadia.entitlements; sourceTree = "<group>"; };
 		98D86E112865E9F700C42B5B /* TMGShops.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TMGShops.entitlements; sourceTree = "<group>"; };
-		AFBD678387D4E3BEA0D35A3F /* libPods-available_pods-Patazone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Patazone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F13B423AC611018DD5A12C /* Pods-available_pods-Patazone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.debug.xcconfig"; sourceTree = "<group>"; };
+		B40E4C6240F7B61143EE2930 /* Pods-available_pods-Patazone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.release.xcconfig"; sourceTree = "<group>"; };
 		EC1C009C283FBAE3004291D1 /* BusTaMove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BusTaMove.entitlements; sourceTree = "<group>"; };
 		ECA1A1EE283F5C9200081F88 /* BlueBundles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueBundles.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -489,7 +489,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				627E06F729D0064BD535A81F /* libPods-available_pods-Patazone.a in Frameworks */,
+				F9026216AE605C6955D3BED1 /* libPods-available_pods-Patazone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,8 +540,8 @@
 		293CCC036299F75712B8E1E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				12ACA41735E4177149C39973 /* Pods-available_pods-Patazone.debug.xcconfig */,
-				043EC3597723B1216D884613 /* Pods-available_pods-Patazone.release.xcconfig */,
+				A7F13B423AC611018DD5A12C /* Pods-available_pods-Patazone.debug.xcconfig */,
+				B40E4C6240F7B61143EE2930 /* Pods-available_pods-Patazone.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -556,7 +556,7 @@
 				84EA41CC26393E950078E919 /* libRNGoogleSignin.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				AFBD678387D4E3BEA0D35A3F /* libPods-available_pods-Patazone.a */,
+				1E68753137E8C423C712B2C2 /* libPods-available_pods-Patazone.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1066,15 +1066,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846CB44D2A657ED8008445DB /* Build configuration list for PBXNativeTarget "Patazone" */;
 			buildPhases = (
-				C323048CA330178EC0CA0C52 /* [CP] Check Pods Manifest.lock */,
+				33B3BF63DBA669156625E0DD /* [CP] Check Pods Manifest.lock */,
 				846CB42A2A657ED8008445DB /* Start Packager */,
 				846CB42B2A657ED8008445DB /* Sources */,
 				846CB42F2A657ED8008445DB /* Frameworks */,
 				846CB4302A657ED8008445DB /* Resources */,
 				846CB44B2A657ED8008445DB /* Bundle React Native code and images */,
 				846CB44C2A657ED8008445DB /* ShellScript */,
-				BCF576AE93372E7BC32594F3 /* [CP] Embed Pods Frameworks */,
-				FCF9AA01ABF1E2EA8764A73D /* [CP] Copy Pods Resources */,
+				5CDDCB6D7EC421C0587EF081 /* [CP] Embed Pods Frameworks */,
+				C2F9517B35F1F949197E8946 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1148,6 +1148,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		33B3BF63DBA669156625E0DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-available_pods-Patazone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CDDCB6D7EC421C0587EF081 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		846CB42A2A657ED8008445DB /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1201,46 +1240,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks.sh\"\n";
 		};
-		BCF576AE93372E7BC32594F3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C323048CA330178EC0CA0C52 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-available_pods-Patazone-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FCF9AA01ABF1E2EA8764A73D /* [CP] Copy Pods Resources */ = {
+		C2F9517B35F1F949197E8946 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1403,6 +1403,7 @@
 				DEVELOPMENT_TEAM = 6FXUMT5X23;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1439,7 +1440,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 6FXUMT5X23;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6FXUMT5X23;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5R2C2F9764;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1453,7 +1454,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PROJECT_BUNDLE_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patazone.order;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROJECT_DEEPLINK = "${PROJECT_DEEPLINK}";
 				PROJECT_ENTITLEMENT = "";

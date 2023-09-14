@@ -1,7 +1,7 @@
 #include "Pods/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.debug.xcconfig"
 PROJECT_APPLE_ID = 6458143928
 PROJECT_BUNDLE_ID = com.patazone.order
-PROJECT_APP_VERSION = 1.0
+PROJECT_APP_VERSION = 2.0
 PROJECT_BUILD_NUMBER = 1
 PROJECT_APP_NAME = Patazone
 PROJECT_GOOGLE_CLIENT_ID =725226528498-mmbqc93asmcm04dbinqe9ngo5gdog46d.apps.googleusercontent.com
