@@ -14,15 +14,20 @@ export const openGps = (lat, lng) => {
   Linking.openURL(url);
 };
 
-export function dialCall(phoneNumber) {
-  if (Platform.OS === 'android') {
-    phoneNumber = `tel:${phoneNumber}`;
-  } else {
-    phoneNumber = `telprompt:${phoneNumber}`;
-  }
-
+export function dialCall(phoneNumber, type) {
+  if (type == "text") {
+  phoneNumber = `sms:+${phoneNumber}`
   Linking.openURL(phoneNumber);
-}
+  return
+  }
+  if (Platform.OS === 'android') {
+  phoneNumber = `tel:${phoneNumber}`;
+  } else {
+  phoneNumber = `telprompt:${phoneNumber}`;
+  }
+  
+  Linking.openURL(phoneNumber);
+  }
 
 export function openBrowser(url) {
   Linking.openURL(url).catch((error) => {
