@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+		29B1B80969CE57FA2E39877D /* libPods-available_pods-Patazone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E609B4B0C094B92F2746F3D5 /* libPods-available_pods-Patazone.a */; };
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 		846CB42C2A657ED8008445DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		846CB42D2A657ED8008445DB /* Royo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4679626A7F27500D378D5 /* Royo.swift */; };
 		846CB42E2A657ED8008445DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -36,7 +43,11 @@
 		846CB4562A657F51008445DB /* Patazone(Production).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4552A657F51008445DB /* Patazone(Production).xcconfig */; };
 		846CB4582A657F66008445DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4572A657F65008445DB /* Images.xcassets */; };
 		846CB45A2A658273008445DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846CB4592A658271008445DB /* GoogleService-Info.plist */; };
+<<<<<<< HEAD
 		8952F63473541660E465E683 /* libPods-available_pods-Patazone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FAD74A959785BFAC7C8C8D /* libPods-available_pods-Patazone.a */; };
+=======
+		F9026216AE605C6955D3BED1 /* libPods-available_pods-Patazone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E68753137E8C423C712B2C2 /* libPods-available_pods-Patazone.a */; };
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +62,13 @@
 		00DC50E227B7612F004AE735 /* MylaGlobal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MylaGlobal.entitlements; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RunrunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunrunTests.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+		0DBBFF4F563ADC01B9310E82 /* Pods-available_pods-Patazone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.debug.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 		1008CD522817D921007C5363 /* MarjMarketplace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarjMarketplace.entitlements; sourceTree = "<group>"; };
 		1013AD6B28112EE300E0582E /* Muvpod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muvpod.entitlements; sourceTree = "<group>"; };
 		101ECCB328337A14002A80FC /* DingDongEat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DingDongEat.entitlements; sourceTree = "<group>"; };
@@ -142,8 +160,16 @@
 		18C7E1B02994DC87003E10F6 /* ShipSmart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShipSmart.entitlements; sourceTree = "<group>"; };
 		18CD3068299BA96600715723 /* MagicalBookings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicalBookings.entitlements; sourceTree = "<group>"; };
 		18F0206F297E95860098482F /* Laith.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laith.entitlements; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3C1DB55C5C4C7976D220D495 /* Pods-available_pods-Patazone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.debug.xcconfig"; sourceTree = "<group>"; };
 		579441281726FC6970C96ABF /* Pods-available_pods-Patazone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.release.xcconfig"; sourceTree = "<group>"; };
+=======
+<<<<<<< HEAD
+		1E68753137E8C423C712B2C2 /* libPods-available_pods-Patazone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Patazone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		4419EEC1C504955ED7C9DF08 /* Pods-available_pods-Patazone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.release.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 		76804BEC269C14AB007926EE /* Runrun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Runrun.entitlements; path = Runrun/Runrun.entitlements; sourceTree = "<group>"; };
 		76804BF6269C157F007926EE /* Tranzit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tranzit.entitlements; sourceTree = "<group>"; };
 		76804BF7269C15CB007926EE /* Hmoobhub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hmoobhub.entitlements; sourceTree = "<group>"; };
@@ -466,7 +492,16 @@
 		98C03ED228648AAB005B62E0 /* AbbeRides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AbbeRides.entitlements; sourceTree = "<group>"; };
 		98C91B1C286985A600D633D8 /* Sadia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sadia.entitlements; sourceTree = "<group>"; };
 		98D86E112865E9F700C42B5B /* TMGShops.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TMGShops.entitlements; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		C6FAD74A959785BFAC7C8C8D /* libPods-available_pods-Patazone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Patazone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+<<<<<<< HEAD
+		A7F13B423AC611018DD5A12C /* Pods-available_pods-Patazone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.debug.xcconfig"; sourceTree = "<group>"; };
+		B40E4C6240F7B61143EE2930 /* Pods-available_pods-Patazone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Patazone.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		E609B4B0C094B92F2746F3D5 /* libPods-available_pods-Patazone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Patazone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 		EC1C009C283FBAE3004291D1 /* BusTaMove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BusTaMove.entitlements; sourceTree = "<group>"; };
 		ECA1A1EE283F5C9200081F88 /* BlueBundles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueBundles.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -489,7 +524,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				8952F63473541660E465E683 /* libPods-available_pods-Patazone.a in Frameworks */,
+=======
+<<<<<<< HEAD
+				F9026216AE605C6955D3BED1 /* libPods-available_pods-Patazone.a in Frameworks */,
+=======
+				29B1B80969CE57FA2E39877D /* libPods-available_pods-Patazone.a in Frameworks */,
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,8 +583,18 @@
 		293CCC036299F75712B8E1E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				3C1DB55C5C4C7976D220D495 /* Pods-available_pods-Patazone.debug.xcconfig */,
 				579441281726FC6970C96ABF /* Pods-available_pods-Patazone.release.xcconfig */,
+=======
+<<<<<<< HEAD
+				A7F13B423AC611018DD5A12C /* Pods-available_pods-Patazone.debug.xcconfig */,
+				B40E4C6240F7B61143EE2930 /* Pods-available_pods-Patazone.release.xcconfig */,
+=======
+				0DBBFF4F563ADC01B9310E82 /* Pods-available_pods-Patazone.debug.xcconfig */,
+				4419EEC1C504955ED7C9DF08 /* Pods-available_pods-Patazone.release.xcconfig */,
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -556,7 +609,15 @@
 				84EA41CC26393E950078E919 /* libRNGoogleSignin.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+<<<<<<< HEAD
 				C6FAD74A959785BFAC7C8C8D /* libPods-available_pods-Patazone.a */,
+=======
+<<<<<<< HEAD
+				1E68753137E8C423C712B2C2 /* libPods-available_pods-Patazone.a */,
+=======
+				E609B4B0C094B92F2746F3D5 /* libPods-available_pods-Patazone.a */,
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1066,15 +1127,33 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846CB44D2A657ED8008445DB /* Build configuration list for PBXNativeTarget "Patazone" */;
 			buildPhases = (
+<<<<<<< HEAD
 				6B039D8543B7BFFD3C483595 /* [CP] Check Pods Manifest.lock */,
+=======
+<<<<<<< HEAD
+				33B3BF63DBA669156625E0DD /* [CP] Check Pods Manifest.lock */,
+=======
+				80236C35EBEDCD117B8122A0 /* [CP] Check Pods Manifest.lock */,
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 				846CB42A2A657ED8008445DB /* Start Packager */,
 				846CB42B2A657ED8008445DB /* Sources */,
 				846CB42F2A657ED8008445DB /* Frameworks */,
 				846CB4302A657ED8008445DB /* Resources */,
 				846CB44B2A657ED8008445DB /* Bundle React Native code and images */,
 				846CB44C2A657ED8008445DB /* ShellScript */,
+<<<<<<< HEAD
 				E8459F5A55CB9DA38E999801 /* [CP] Embed Pods Frameworks */,
 				63CB56133B54E35FD085639D /* [CP] Copy Pods Resources */,
+=======
+<<<<<<< HEAD
+				5CDDCB6D7EC421C0587EF081 /* [CP] Embed Pods Frameworks */,
+				C2F9517B35F1F949197E8946 /* [CP] Copy Pods Resources */,
+=======
+				BEFA9C205EAB58A4904B27D2 /* [CP] Embed Pods Frameworks */,
+				B240859D0B7506CD6E5ED0AF /* [CP] Copy Pods Resources */,
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 			);
 			buildRules = (
 			);
@@ -1148,6 +1227,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+<<<<<<< HEAD
 		63CB56133B54E35FD085639D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1166,6 +1246,13 @@
 			showEnvVarsInLog = 0;
 		};
 		6B039D8543B7BFFD3C483595 /* [CP] Check Pods Manifest.lock */ = {
+=======
+<<<<<<< HEAD
+		33B3BF63DBA669156625E0DD /* [CP] Check Pods Manifest.lock */ = {
+=======
+		80236C35EBEDCD117B8122A0 /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1187,6 +1274,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		5CDDCB6D7EC421C0587EF081 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+=======
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 		846CB42A2A657ED8008445DB /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1240,7 +1350,32 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-frameworks.sh\"\n";
 		};
+<<<<<<< HEAD
 		E8459F5A55CB9DA38E999801 /* [CP] Embed Pods Frameworks */ = {
+=======
+<<<<<<< HEAD
+		C2F9517B35F1F949197E8946 /* [CP] Copy Pods Resources */ = {
+=======
+		B240859D0B7506CD6E5ED0AF /* [CP] Copy Pods Resources */ = {
+>>>>>>> 7d6b17078b0640bd29009f3bc8d31b741ace7782
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEFA9C205EAB58A4904B27D2 /* [CP] Embed Pods Frameworks */ = {
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1400,7 +1535,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 6FXUMT5X23;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
@@ -1440,7 +1575,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = "";
+=======
+				DEVELOPMENT_TEAM = 6FXUMT5X23;
+>>>>>>> addbd6bd86ec271c8a61fe6ff695fcc8b5461cf3
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5R2C2F9764;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";

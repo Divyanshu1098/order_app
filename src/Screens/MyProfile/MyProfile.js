@@ -49,6 +49,7 @@ import {MyDarkTheme} from '../../styles/theme';
 import {androidCameraPermission} from '../../utils/permissions';
 
 import { enableFreeze } from "react-native-screens";
+import { setAppSessionData } from '../../redux/actions/auth';
 enableFreeze(true);
 
 
@@ -58,13 +59,19 @@ export default function MyProfile({route, navigation}) {
   const darkthemeusingDevice = useDarkMode();
   const isDarkMode = toggleTheme ? darkthemeusingDevice : theme;
   const currentTheme = useSelector((state) => state?.initBoot);
-
-  const {themeColors, themeLayouts, appStyle} = currentTheme;
+  const {
+    currencies,
+    appData,
+    languages,
+    appStyle,
+    themeColors,
+    themeToggle,
+    themeColor,
+  } = useSelector((state) => state?.initBoot);
   const fontFamily = appStyle?.fontSizeData;
   const styles = stylesFunc({themeColors, fontFamily});
   const commonStyles = commonStylesFunc({fontFamily});
   const paramData = route?.params;
-  const appData = useSelector((state) => state?.initBoot?.appData);
   const userData = useSelector((state) => state?.auth?.userData);
   const [state, setState] = useState({
     currentPassword: '',
@@ -72,7 +79,7 @@ export default function MyProfile({route, navigation}) {
     confirmPassword: '',
     tabBarData: [
       {title: strings.BASIC_INFO, isActive: true},
-      {title: strings.CHANGE_PASS, isActive: false},
+      // {title: strings.CHANGE_PASS, isActive: false},
       {title: strings.ADDRESS, isActive: false},
     ],
     selectedTab: strings.BASIC_INFO,
@@ -323,7 +330,42 @@ export default function MyProfile({route, navigation}) {
       showError(strings.UNAUTHORIZED_MESSAGE);
     }
   };
-
+  const deleleUserAccount = async () => {
+    try {
+      const res = await actions.deleteAccount(
+        {},
+        {
+          code: appData?.profile?.code,
+          currency: currencies?.primary_currency?.id,
+          language: languages?.primary_language?.id,
+        },
+      );
+      actions.userLogout();
+      actions.cartItemQty('');
+      actions.saveAddress('');
+      actions.addSearchResults('clear');
+      setAppSessionData()
+    } catch (error) {
+      console.log('erro raised', error);
+      showError(error?.message);
+    }
+  };
+  const onDeleteAccount = () => {
+    if (!!userData?.auth_token) {
+      Alert.alert(strings.ARE_YOU_SURE_YOU_WANT_TO_DELETE, '', [
+        {
+          text: strings.CANCEL,
+          onPress: () => console.log('Cancel Pressed'),
+        },
+        {
+          text: strings.CONFIRM,
+          onPress: deleleUserAccount,
+        },
+      ]);
+    } else {
+      actions.setAppSessionData('on_login');
+    }
+  };
   //Select Primary Address
   const setPrimaryLocation = (id) => {
     updateState({isLoading: true});
@@ -559,6 +601,21 @@ export default function MyProfile({route, navigation}) {
             marginBottom={moderateScaleVertical(50)}
             btnText={strings.SAVE_CHANGES}
           />
+
+        {!!userData?.auth_token ? (
+            <Text
+              onPress={onDeleteAccount}
+              style={{
+                ...commonStyles.regularFont11,
+                color: colors.redB,
+                marginTop: moderateScaleVertical(4),
+                opacity: 1,
+                textAlign:'center',
+                fontSize: textScale(13),
+              }}>
+              {strings.DELETE_ACCOUNT}
+            </Text>
+          ) : null}
         </View>
       </KeyboardAwareScrollView>
     );
@@ -886,7 +943,6 @@ export default function MyProfile({route, navigation}) {
           </Text>
         </View>
       </View>
-
       <View
         style={{
           ...styles.bottomSection,
@@ -900,9 +956,9 @@ export default function MyProfile({route, navigation}) {
           tabBarItems={tabBarData}
           onPress={(tabData) => changeTab(tabData)}
           numberOfLines={1}
-          textTabWidth={width / 2.8}
+          textTabWidth={width / 2}
           customTextContainerStyle={{
-            width: width / 2.8,
+            width: width / 2,
           }}
           textStyle={{
             fontSize: textScale(13),
