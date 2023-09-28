@@ -218,9 +218,9 @@ android {
     flavorDimensions "appType"
 
       productFlavors {
-                 patazone {
+                 patazone{
                 dimension "appType"
-                versionCode 3
+                versionCode 2
                 versionName "1.0"
                 minSdkVersion rootProject.ext.minSdkVersion
                 targetSdkVersion rootProject.ext.targetSdkVersion
