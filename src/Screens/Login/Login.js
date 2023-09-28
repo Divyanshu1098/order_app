@@ -521,7 +521,7 @@ export default function Login({ navigation }) {
         keyboardShouldPersistTaps="handled"
         style={{
           flex: 1,
-          marginHorizontal: moderateScale(16),
+          marginHorizontal: moderateScale(18),
         }}
         enableOnAndroid={true}>
         <View style={{ height: moderateScaleVertical(33) }} />

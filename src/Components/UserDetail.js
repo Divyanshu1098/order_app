@@ -54,7 +54,8 @@ const UserDetail = ({
 
   const onWhatsapp = async () => {
     const vendorPhoneNumber = data?.vendor?.phone_no.replace(/\s/g, "") || data?.order?.phone_number.replace(/\s/g, "")
-    let url = `whatsapp://send?phone=${data?.vendor?.dial_code}${vendorPhoneNumber}`;
+    let url = `whatsapp://send?phone=${vendorPhoneNumber}`;
+    console.log(url,'url0url')
     Linking.openURL(url)
       .then((data) => {
         console.log("WhatsApp Opened successfully " + data); //<---Success
@@ -234,7 +235,8 @@ const UserDetail = ({
               onPress={() =>
              
                 dialCall(
-               `+${data?.vendor?.dial_code}${data?.vendor?.phone_no}`
+                  `+${data?.vendor?.phone_no}`
+              //  `+${data?.vendor?.dial_code}${data?.vendor?.phone_no}`
                   // (type = "phone")
                 )
               }
