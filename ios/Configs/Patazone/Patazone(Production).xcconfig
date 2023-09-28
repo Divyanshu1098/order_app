@@ -1,11 +1,7 @@
 #include "Pods/Target Support Files/Pods-available_pods-Patazone/Pods-available_pods-Patazone.release.xcconfig"
 PROJECT_APPLE_ID = 6458143928
 PROJECT_BUNDLE_ID = com.patazone.order
-<<<<<<< HEAD
 PROJECT_APP_VERSION = 3.0
-=======
-PROJECT_APP_VERSION = 2.1
->>>>>>> 4836313cf2bc36fb087f101f2a11081f0140ac1a
 PROJECT_BUILD_NUMBER = 1
 PROJECT_APP_NAME = Patazone
 PROJECT_GOOGLE_CLIENT_ID =611367551119-7kq2kkdojp2qbvlioojsp8b45eb8n25u.apps.googleusercontent.com
